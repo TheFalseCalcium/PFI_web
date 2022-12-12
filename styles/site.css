@@ -1,0 +1,866 @@
+
+/*modifer Balise*/
+h1 {
+    font-size: inherit;
+    margin: 0px;
+}
+
+h2 {
+    font-size: inherit;
+    margin: 0px;
+}
+
+
+.menuBox {
+    display: grid;
+    grid-template-columns: repeat(7, 12vw);
+    column-gap: 10px;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+.background {
+    background-color: rgba(117, 117, 117, 0.449);
+    width: auto;
+}
+
+.main {
+    background-color: white;
+    margin: auto;
+    max-width: 1200px;
+}
+.menublocks.background{background-color: rgba(255, 255, 255, 0);}
+/*PArtie principale du menu*/
+.menublocks {
+    background-color: white;
+    margin: 1px;
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    font-size: 17px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.menublocks:hover {
+    border: 3px solid grey;
+    border-radius: 15px;
+    color: grey;
+
+}
+/* hover menu*/
+a img:hover {
+    border: 4px solid black;
+    border-radius: 115px;
+    margin-top: -1px;
+}
+
+.selected {
+    color: rgb(255, 52, 52);
+    border-color: rgb(255, 52, 52);
+}
+/* pour la photo de beat dans le menu*/
+.margin_block {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.menu_icon {
+    max-height: 50px;
+
+    margin-top: 3px;
+}
+/*Boite dans l'accueil*/
+.photoBox {
+    width: auto;
+    height: fit-content;
+    border: solid black 4px;
+    border-radius: 25px;
+}
+/*un titre dans accueil*/
+.headerGallery {
+    background-color: white;
+    margin: auto;
+    width: 750px;
+    border-radius: 10px;
+    border: 3.5px solid red;
+    margin-top: 20px;
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+/* page gallerie*/
+.galleryFlex {
+    display: flex;
+
+}
+
+.galleryItem {
+    width: 45%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+/* rangée utilisé un peu partout*/
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    background-color: white;
+    gap: 40px;
+    margin-top: 75px;
+}
+/*Modiféie pour les beats pill et d'autre*/
+.flex.pill {
+    margin-top: 30px;
+}
+/*Du  contenu*/
+.item1 {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 13px;
+    background-color: #00000028;
+}
+
+.imagePill {
+    width: 30vw;
+    max-width: 1000px;
+    float: right;
+}
+
+/*titre beaucoup utlisé*/
+.headerFlexBox {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    border-radius: 10px;
+    color: black;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+border: 2px solid black;
+background-color: white;
+}
+
+/*titre beaucoup utlisé*/
+.headerFlex {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    padding-left: 10px;
+    color: black;
+
+}
+/* modifée positon dan une rangée*/
+.headerFlex.pill {
+    font-size: 45px;
+    padding-left: 10px;
+}
+
+.text {
+    margin-top: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+/* un autre titre*/
+.greyheader {
+    font-size: inherit;
+    font-family: 'Zen Dots', cursive;
+}
+
+.text.pill {
+    font-size: 15px;
+}
+
+.imageFrame {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+/* pour les fit pro*/
+.boxImageFit {
+    height: 800px;
+    width: 350px;
+    float: left;
+
+}
+/* pour les fit pro*/
+.imageFrameFit {
+    width: 300px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 50px;
+
+}
+/*pour pill*/
+.imageFrame.pill {
+    width: 170px;
+    height: 170px;
+    float: left;
+    padding-left: 10px;
+}
+/* image fin accueil*/
+.endBox {
+    width: 90%;
+    height: 42vw;
+}
+/*image fin accueil*/
+.imageFrameEnd.right {
+    float: right;
+    margin-top: 2vw;
+    width: 17vw;
+    height: 17vw;
+}
+
+.imageFrame.gallery {
+    float: none;
+}
+/*image fin accueil*/
+.imageFrameEnd.left {
+    float: left;
+    margin-top: 5vw;
+    width: 15vw;
+    height: 15vw;
+    padding-left: 50px;
+}
+/*changer couleur */
+.red {
+    color: rgb(255, 52, 52);
+}
+
+.grey {
+    color: rgb(112, 112, 112);
+}
+
+/* Beats Solo Pro*/
+.headerSolo {
+    font-size: 80px;
+    font-family: 'Cabin', sans-serif;
+    border-bottom: 10px solid black;
+}
+
+.imageSolofloat {
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.imageSolo {
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+.soloBox {
+    height: auto;
+    width: auto;
+    margin-bottom: 105px;
+}
+
+.soloBox.noMargin {
+    margin-bottom: 10px;
+}
+/* boite fixed comme demandé*/
+.boxFixed {
+    position: fixed;
+    top: 50%;
+    width: 125px;
+    border-radius: 50px;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.793);
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    padding: 40px;
+    text-align: left;
+    z-index: 2;
+}
+
+.imageSolo.width {
+    margin-top: 100px;
+    width: 90%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+/* pour studio*/
+.imageSolo.studio {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.headerFlex.pill.solo {
+    text-align: center;
+}
+
+.greyheader.solo {
+    font-size: 1.5em;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.greyheader.solo.studio {
+    padding-top: 10px;
+}
+/* au début de la page beat studio meiux placer le texte et l'image*/
+.gridStudio {
+    display: grid;
+    width: auto;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 50px;
+    height: fit-content;
+    gap: 40px;
+}
+
+.studiotext {
+    padding-left: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+/*grid studio*/
+.gridItem2 {
+    grid-row: 2/4;
+}
+
+.imageGrid {
+    grid-row: 1/6;
+}
+/* pour la vidép*/
+.youtubeBox iframe {
+    position: relative;
+    left: 22vw;
+    height: 28.125vw;
+    margin-top: 50px;
+    width: 50vw;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+td {
+    border: 3px solid gray;
+    text-align: center;
+    padding-left: 5px;
+    width: 10%;
+    font-size: 2vw;
+}
+
+.tdNb {
+    font-size: 1.3em;
+    border: 3px solid gray;
+    text-align: center;
+}
+.border-side{
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+
+}
+th {
+    padding: 5px;
+    border-bottom: 3px solid gray;
+    text-align: left;
+    font-size: 1.35em;
+    font-family: 'Cabin', sans-serif;
+}
+
+.z-index{
+    position: sticky;
+    z-index: 2;
+    top: 5px;
+    margin: auto;
+    
+}
+.mp3Box{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+li{margin-bottom: 20px;}
+/* pour la plus grande partiw, c'est des correctif pour rendre plsu beuax quand on rétrécie la page*/ 
+@media screen and (max-width: 600px) {
+    /*changer forme menu*/
+    .menuBox {
+        grid-template-columns: repeat(1, 70px);
+        width: fit-content;
+        margin: 0px;
+        margin-right: 30px;
+        float: left;
+        height: 425px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .headerGallery {
+        width: auto;
+        margin-left: 100px;
+        margin-right: 30px;
+        font-size: 24px;
+    }
+
+    .headerGallery.noMargin {
+        margin-left: 30px;
+
+    }
+
+    .menublocks {
+        font-size: 14px;
+    }
+
+    .margin_block {
+        margin-top: 7px;
+        padding: 0px;
+    }
+
+    .paddingSoutien {
+        padding-top: 10px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .flex.pill {
+        margin-left: 20px;
+    }
+
+    .flex>div.item1.grow {
+        margin-left: -85px;
+    }
+
+    .imageFrameFit {
+        width: 150px;
+    }
+
+    .boxImageFit {
+        width: 170px;
+        height: 450px;
+    }
+
+    .imageSolo {
+        width: 100px;
+        height: 150px;
+
+    }
+
+    .imageSolofloat {
+        width: 100px;
+        height: 150px;
+    }
+
+    .headerSolo {
+        font-size: 20px;
+        position: relative;
+        left: 100px;
+        text-align: left;
+        width: 100%;
+        border-bottom: 6px solid black;
+
+    }
+
+    .headerSolo.small {
+        width: 70%;
+    }
+
+    .left {
+        position: relative;
+        left: -80px;
+    }
+
+    .headerSolo.goLeft {
+        position: static;
+        float: left;
+    }
+
+    .imageSolo.imageSolo.width {
+        height: 300px;
+    }
+
+    .headerFlex.pill.solo {
+        font-size: 1.5em;
+    }
+
+    .greyheader.solo {
+        padding-top: 20px;
+        font-size: 1em;
+    }
+
+    .studiotext {
+        font-size: 0.6em;
+        padding-left: 20px;
+
+    }
+
+    .greyheader.solo.studio {
+        font-size: 0.8em;
+    }
+
+    .gridItem2 {
+        grid-row: 1/3;
+    }
+
+    .imageSolo.studio {
+        width: 100px;
+    }
+
+    .gridStudio {
+        margin-bottom: 60px;
+        gap: 20px
+    }
+
+    .boxFixed {
+        width: 70px;
+        font-size: 12px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .imageFrameEnd.left {
+        margin-left: 50px;
+    }
+
+    .imagePill {
+        width: 20vw;
+        max-width: 1000px;
+        float: right;
+    }
+    .youtubeBox iframe {
+        position: relative;
+        left: 12vw;
+        height: 28.125vw;
+        margin-top: 50px;
+        width: 50vw;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    /*autre forme menu*/
+    .menuBox {
+        grid-template-columns: repeat(3, 70px);
+        margin-left: 10px;
+        margin-bottom: 1px;
+        height: 225px;
+    }
+/*modifier la boite soutien pour qu'elle soit plus grosse*/
+    .item7 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .headerGallery {
+        margin: auto;
+        margin-top: 240px;
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .headerSolo.small {
+        width: 85%;
+    }
+
+    .headerFlex {
+        font-size: 25px;
+    }
+
+    .headerFlex.pill {
+        font-size: 25px;
+    }
+
+    .flex>div.item1.grow {
+        margin-left: 0px;
+    }
+
+    .imageFrame.pill {
+        width: 100px;
+        height: 100px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+
+    .imageFrameFit {
+        width: 0px;
+    }
+
+    .boxImageFit {
+        width: 0px;
+        height: 0px;
+    }
+
+    .notHiddenFrame {
+        width: 110px;
+        float: none;
+    }
+
+    .notHiddenBox {
+        height: 100px;
+        width: auto;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .imageFrameEnd.right {
+        float: right;
+        margin-top: 2vw;
+        width: 17vw;
+        height: 17vw;
+    }
+
+    .imageFrameEnd.left {
+        float: left;
+        margin-top: 2vw;
+        width: 15vw;
+        height: 15vw;
+        padding-left: 50px;
+    }
+
+    .imageSolo.imageSolo.width {
+        height: 200px;
+    }
+
+    .greyheader.solo {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+
+    .headerFlex.pill.solo {
+        font-size: 0.7em;
+    }
+
+    .headerSolo {
+        width: 100%;
+        position: static;
+        float: left;
+        left: 0px;
+    }
+
+    .left {
+        position: static;
+    }
+
+    .gridItem2 {
+        grid-row: 1/3;
+    }
+
+    .gridStudio {
+        gap: 10px;
+    }
+
+    .studiotext.width {
+        width: 50%;
+    }
+
+    .boxFixed {
+        width: 50px;
+        font-size: 10px;
+        padding: 12px;
+    }
+
+    .headerGallery.noMargin {
+        font-size: 10px;
+        width: 100px;
+        padding: 1px;
+        margin-top: 10px;
+        height:200px;
+        padding-top: 0px;
+    }
+
+    .imageFrameEnd.left {
+        margin-left: 0px;
+    }
+h1{
+    height: auto;
+    width: auto;
+}
+    .imagePill {
+        width: 20vw;
+        max-width: 1000px;
+        float: right;
+    }
+    .z-index{
+        position: static;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width:601px) {
+
+   
+    .imagePill {
+        width: 20vw;
+        max-width: 1000px;
+        float: right;
+    }
+
+    .menublocks {
+        font-size: 14px;
+    }
+
+    .margin_block {
+        margin-top: 7px;
+        padding-top: 3px;
+    }
+
+    .headerGallery {
+        width: 500px;
+    }
+
+    .main {
+        padding: 0px;
+    }
+
+    .imageFrame {
+        width: 65px;
+        height: 65px;
+        padding-right: 15px;
+        padding-left: 20px;
+        padding-bottom: 7px;
+    }
+
+    .text {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .headerFlex {
+        font-size: 25px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .headerFlex.pill {
+        font-size: 25px;
+    }
+
+    .imageFrame.pill {
+        width: 125px;
+        height: 125px;
+    }
+
+    .imageFrameFit {
+        width: 200px;
+    }
+
+    .boxImageFit {
+        width: 250px;
+        height: 580px;
+    }
+
+    .imageFrameEnd.right {
+        float: right;
+        margin-top: 2vw;
+        width: 17vw;
+        height: 17vw;
+    }
+
+    .imageFrameEnd.left {
+        float: left;
+        margin-top: 2vw;
+        width: 15vw;
+        height: 15vw;
+        padding-left: 50px;
+    }
+
+    .imageSolo {
+        width: 250px;
+        height: 350px;
+    }
+
+    .imageSolofloat {
+        width: 250px;
+        height: 350px;
+    }
+
+    .boxFixed {
+        width: 100px;
+        height: 175px;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .headerSolo {
+        font-size: 60px;
+    }
+
+    .headerFlex.pill.solo {
+        font-size: 30px;
+    }
+
+    .gridItem2 {
+        grid-row: 1/3;
+    }
+
+
+}
+/* pour pas qu'il aille de problème lorsqu'on dézoome beaucoup*/
+@media screen and (min-width: 1200px) {
+    .menuBox {
+        grid-template-columns: repeat(7, 160px);
+    }
+
+    .main {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .imageFrameEnd.right {
+        float: right;
+        margin-top: 1vw;
+        width: 200px;
+        height: 200px;
+
+
+    }
+
+    .imageFrameEnd.left {
+        float: left;
+        margin-top: 2vw;
+        width: 200px;
+        height: 200px;
+        padding-left: 50px;
+    }
+
+    .endBox {
+        width: 90%;
+        height: fit-content;
+    }
+
+    .youtubeBox iframe {
+        position: relative;
+        left: 150px;
+        height: 506.25px;
+        margin-top: 50px;
+        width: 900px;
+    }
+
+    .imagePill {
+        width: 400px;
+        height: 250px;
+    }
+    td{font-size: 25px;}
+
+
+}
